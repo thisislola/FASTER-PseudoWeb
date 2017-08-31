@@ -1,0 +1,64 @@
+<!-- **********************************************
+ 	iScream HTML file by L. Carthy and E. Øvensen
+ 	for Noroff University College - KRS, Norway 
+ 	for the 'Forensic And Security Teaching: 
+ 	Educational Resources' Project (FASTER) 2017
+	***********************************************
+-->
+
+<!DOCTYPE html>
+<!-- THERE ARE NO COMMENTS ON THE HTML JFC I HAVE TO FIX THIS -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" href="kontaktsheet.css" type="text/css" />
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <title>iScream</title>
+</head>
+<body>
+<div id="top">
+		<div class="wrapper">
+			<img src="media/logo.png" alt="iScream Logo" width=100px style="margin:15px 0px 10px 30px;">
+			<ul id="nav">
+				<li><a href="index.html">HJEM</a></li>
+				<li><a href="omoss.html">OM OSS</a></li>
+				<li><a href="vaareprodukter.html">VÅRE PRODUKTER</a></li>
+				<li><a href="kontakt.html">KONTAKT OSS</a></li>
+			</ul>
+		</div>
+	</div>
+
+<div id="body-form">
+		<div class="container">
+		  <form action="index.html"> <!-- Cant go to /action_page.php -->
+		    <label for="fname">First Name</label>
+		    <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+		    <label for="lname">Last Name</label>
+		    <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+		    <label for="country">Country</label>
+		    <select id="country" name="country">
+		      <option value="norway">Norway</option>
+		      <option value="sweden">Sweden</option>
+		      <option value="usa">USA</option>
+		    </select>
+
+		    <label for="subject">Subject</label>
+		    <textarea id="subject" name="subject" placeholder="Your comments" style="height:200px"></textarea>
+
+		    <input type="submit" value="Submit">
+		  </form>
+		</div>
+</div>
+	<div id="footer">
+		<div class="wrapper" style="text-align:center;">
+			<img src="media/logo.png" alt="footer logo" height=50px style="margin-top:15px;">
+			<p>&copy; iScream Kristiansand Norway - 2017</p>
+		</div>
+	</div>
+
+</body>
+</html>

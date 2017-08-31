@@ -1,0 +1,133 @@
+﻿ /* ***************************************************
+ 	iScream CSS Stylesheet by L. Carthy and E. Øvensen
+ 	for Noroff University College - KRS, Norway 
+ 	for the 'Forensic And Security Teaching: 
+ 	Educational Resources' Project (FASTER) 2017
+	***************************************************
+ */ 
+
+body {
+	background: #FFF;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+#top { /* logo block */
+	background: #FFF;
+	width: 100%;
+	height: 130px;
+}
+
+#nav { /* nav area */
+	float: right;
+	margin: 50px 50px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#nav li { /* nav buttons */
+	display: inline;
+	padding: 10px;
+	background: #FFF;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFF;
+	border-radius: 10px;
+}
+
+#nav li:hover { /* nav buttons */
+	background: #FFE5F5; /* pink now */
+
+}
+
+#header { /* block 1 */
+	background: #FFFDD8; 
+	width: 100%;
+	height: 320px;
+}
+
+#header p { /* text */
+	float: right;
+	width: 650px;
+	margin: 20px 0px 40px 0px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+	color: #4F4F4F; /* grey */
+}
+
+#header h2 { /* text */
+	margin: 30px 5px 0px 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	float: left;
+	color:#4F4F4F; /* grey */
+}
+
+#small-header { /* yellow */
+	background: #FFFDD8; 
+	width: 100%;
+	height: 80px;
+}
+
+#small-header h1 { /* big title */
+	margin: 0px 5px 0px 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 50px;
+	text-align: center;
+	color:#4F4F4F; /* grey */
+}
+
+#products { /* block 2 */
+	background: #FFE5F5; /* very light pink */
+	width: 100%;
+	height: 300px;
+	padding: 30px 10px 30px 10px;
+}
+
+#footer { /* block 3 */ 
+	background: #FFF; 
+	width: 100%;
+	height: 100px;
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+}
+
+.wrapper {
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto 0 auto;
+}
+
+#show { /* block ??? */
+	background: #FFE5F5; 
+	width: 100%;
+	height: 600px;
+}
+
+.showcase {
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto 0 auto;
+}
+
+.circle {
+	border-radius: 50%;
+	padding-right: 20px;
+}
+
+.rounded {
+	border-radius:10%; 
+	opacity: 0.7;
+	float: left;
+	padding: 10px 10px 10px 10px;
+}
+
+/* FADE STUFF */
+
